@@ -445,7 +445,7 @@ countNA</code></pre>
 <pre class="r"><code>CleanActivityData = ActivityData
 for(i in 1:length(ActivityData$steps)) {
         if (is.na(ActivityData$steps[i])){
-                CleanActivityData$steps[i] &lt;-                             StepsPerInterval_Average$AverageSteps[StepsPerInterval_Average$Interval == ActivityData$interval[i]]
+                CleanActivityData$steps[i] &lt;- StepsPerInterval_Average$AverageSteps[StepsPerInterval_Average$Interval == ActivityData$interval[i]]
         }
 }
 
