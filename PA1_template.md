@@ -2,7 +2,7 @@
 title: "Reproducible Research - Project 1"
 author: "Igor Paiva"
 date: "11/12/2019"
-output: md_document
+output: html_document
 ---
 
 1 - Code for reading in the dataset and/or processing the data:
